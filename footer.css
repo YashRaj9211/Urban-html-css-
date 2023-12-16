@@ -1,0 +1,59 @@
+.footer{
+    /* background-color: antiquewhite; */
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.footer>div{
+    /* background-color: aqua; */
+    flex-grow: 1;
+    /* min-width: fit-content; */
+    /* background-color: antiquewhite; */
+}
+
+.ft-lable{
+    margin: 0.8rem 0;
+    font-weight: 400;
+}
+
+.ft-elem{
+    padding: 0.2rem;
+    transition: all 300ms ease;
+}
+
+.ft-elem:hover{
+    color: #0000009c;
+    cursor: pointer;
+}
+
+.footer>.follow>.follow-icons{
+    display: flex;
+    justify-content: start;
+}
+
+.footer>.follow>.follow-icons>p{
+    padding: 0.5rem;
+    transition: all 300ms ease;
+}
+
+.footer>.follow>.follow-icons>p:hover{
+    /* color: #0c0c0c; */
+    cursor: pointer;
+    color: #0000009c;
+}
+
+.copy-right{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #0000009c;
+}
+
+#hr{
+    margin: 3rem 0;
+}

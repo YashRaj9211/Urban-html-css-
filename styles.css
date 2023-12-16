@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'IBM Plex Sans', sans-serif; */
+  font-family: "Rubik";
+  font-size: 100%;
+}
+hr {
+  color: #c0c0c0;
+  /* width: 0.5px; */
+  border: 0.8px solid #c0c0c0;
+}
+ul{
+  list-style: none;
+}
+
+.main-cont {
+  padding: 1rem 2rem;
+}
+
+.section {
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+nav > .logo {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+nav > .nav-items > ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+nav > .login > button {
+  border: none;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  background-color: antiquewhite;
+}
+
+nav > .login > button:nth-child(1) {
+  background-color: transparent;
+}
+nav > .login > button:nth-child(2) {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+
+nav > .nav-items > .nav-item-select {
+  width: 10px;
+  height: 10px;
+  display: absolute;
+  background-color: #000;
+}
